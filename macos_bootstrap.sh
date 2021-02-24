@@ -61,6 +61,7 @@ CASKS=(
     raindropio
     royal-tsx
     spotify
+    karabiner-elements
     font-ia-writer-duo
     font-ia-writer-duospace
     font-ia-writer-mono
