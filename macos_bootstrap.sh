@@ -87,6 +87,9 @@ mas install 497799835  # Xcode (11.1)
 #mas install 803453959  # Slack
 #mas install 1278508951 # Trello
 
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Create Directories
 printf "\n\nCreate Directories\n\n"
 mkdir ~/Development
