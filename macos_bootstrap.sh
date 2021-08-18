@@ -27,6 +27,7 @@ PACKAGES=(
     xz
     zsh
     trash
+    switchaudio-osx
 )
 
 # Install Homebrew Apps
