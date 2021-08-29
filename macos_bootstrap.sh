@@ -12,6 +12,7 @@ fi
 # Updating Homebrew
 printf "\n\nUpdating Homebrew\n\n"
 brew update
+brew tap dnote/dnote
 
 # Homebrew Packages
 PACKAGES=(
@@ -28,6 +29,7 @@ PACKAGES=(
     zsh
     trash
     switchaudio-osx
+    dnote
 )
 
 # Install Homebrew Apps
