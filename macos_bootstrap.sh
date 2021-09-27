@@ -1,5 +1,17 @@
 #!/usr/bin/env bash
 
+# # # # # # # # # # # # # # #
+#
+# 1. Sign-in to the App Store
+# 2. Run the script
+# 3. Install Dropbox
+# 4. https://sourabhbajaj.com/mac-setup/iTerm/zsh.html
+#
+#
+#
+# # # # # # # # # # 
+
+
 # Checking for Homebrew
 if test ! $(which brew); then
     printf "\n\nINSTALLING HOMEBREW\n\n"
@@ -87,6 +99,10 @@ mas install 1276248849 # Diagrams
 mas install 1444383602 # GoodNotes 5
 mas install 419330170  # Moom
 mas install 497799835  # Xcode (11.1)
+mas install 904280696  # Things (3.14.4)
+mas install 1290358394 # Cardhop (2.0.6)
+mas install 1091189122 # Bear (1.8.5)
+mas install 1529448980 # Reeder 5 (5.0.8)
 #mas install 803453959  # Slack
 #mas install 1278508951 # Trello
 
