@@ -3,8 +3,7 @@
 # Checking for Homebrew
 if test ! $(which brew); then
     printf "\n\nINSTALLING HOMEBREW\n\n"
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    brew tap homebrew/cask-fonts
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
     printf "\n\nHomebrew Already Installed\n\n"
 fi
