@@ -6,7 +6,7 @@
 # 2. Run the script
 # 3. Install Dropbox
 # 4. https://sourabhbajaj.com/mac-setup/iTerm/zsh.html
-#
+# 5. Update hostname
 #
 #
 # # # # # # # # # # 
