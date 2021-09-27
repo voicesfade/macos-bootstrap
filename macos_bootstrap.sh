@@ -13,6 +13,7 @@ fi
 printf "\n\nUpdating Homebrew\n\n"
 brew update
 brew tap dnote/dnote
+brew tap homebrew/cask-fonts
 
 # Homebrew Packages
 PACKAGES=(
