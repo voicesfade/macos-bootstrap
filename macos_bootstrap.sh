@@ -54,6 +54,7 @@ brew cleanup
 
 # Cask Packages
 CASKS=(
+    background-music
     1password
     postman
     alfred
