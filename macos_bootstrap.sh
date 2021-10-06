@@ -104,6 +104,7 @@ mas install 904280696  # Things (3.14.4)
 mas install 1290358394 # Cardhop (2.0.6)
 mas install 1091189122 # Bear (1.8.5)
 mas install 1529448980 # Reeder 5 (5.0.8)
+mas install 457622435  # Yoink (3.5.16)
 #mas install 803453959  # Slack
 #mas install 1278508951 # Trello
 
