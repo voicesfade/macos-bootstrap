@@ -54,6 +54,7 @@ brew cleanup
 
 # Cask Packages
 CASKS=(
+    discord
     background-music
     1password
     postman
