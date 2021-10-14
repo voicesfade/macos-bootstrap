@@ -150,3 +150,16 @@ printf "\n\nDone\n\n"
 # - Logi Options
 # - Logi Tune
 # # # # # # # # #
+
+# # # # # # # # #
+# Append this to end of ~/.zshrc
+# # # # # # # # #
+# # macOS Setup
+#
+# alias @icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
+# alias @dev="cd ~/Development"
+#
+# # Starship
+#
+# eval "$(starship init bash)"
+# # # # # # # # #
