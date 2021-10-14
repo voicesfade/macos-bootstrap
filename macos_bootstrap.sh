@@ -116,23 +116,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
-FILE="$HOME/.zshrc"
-STRING="macOS Setup"
-TEXT='
-# macOS Setup
-alias @icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
-alias @dev="cd ~/Development"
-
-# Starship
-eval "$(starship init bash)"
-'
-
-if  grep -q "$STRING" "$FILE" ; then
-         echo 'Starship already setup' ; 
-else
-         echo $TEXT >> ~/.zshrc ; 
-fi
-
 # Create Directories
 printf "\n\nCreate Directories\n\n"
 mkdir ~/Development
@@ -161,5 +144,5 @@ printf "\n\nDone\n\n"
 #
 # # Starship
 #
-# eval "$(starship init bash)"
+# eval "$(starship init zsh)"
 # # # # # # # # #
