@@ -112,6 +112,10 @@ mas install 457622435  # Yoink (3.5.16)
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Install Starship
+
+sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+
 # Create Directories
 printf "\n\nCreate Directories\n\n"
 mkdir ~/Development
