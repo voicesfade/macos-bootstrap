@@ -28,7 +28,6 @@ brew tap homebrew/cask-fonts
 
 # Homebrew Packages
 PACKAGES=(
-    goto
     git
     node
     npm
