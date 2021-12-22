@@ -132,14 +132,5 @@ printf "\n\nDone\n\n"
 # # # # # # # # #
 
 # # # # # # # # #
-# Append this to end of ~/.zshrc
-# # # # # # # # #
-# # macOS Setup
-#
-# alias @icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
-# alias @dev="cd ~/Development"
-#
-# # Starship
-#
-# eval "$(starship init zsh)"
+# https://github.com/romkatv/zsh4humans
 # # # # # # # # #
