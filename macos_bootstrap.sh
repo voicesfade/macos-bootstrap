@@ -6,7 +6,10 @@
 # 2. Run the script
 # 3. Install Dropbox
 # 4. https://sourabhbajaj.com/mac-setup/iTerm/zsh.html
-# 5. Update hostname
+# 5. https://github.com/romkatv/zsh4humans
+# 6. Install xcall from Github → https://github.com/martinfinke/xcall
+# 7. Update hostname: vfd-mini/iphone/ipad-2201
+# 8. Run `mas install 497799835  # Xcode (11.1)`
 #
 #
 # # # # # # # # # # 
@@ -60,31 +63,20 @@ CASKS=(
     1password
     postman
     alfred
-    muzzle
     rocket
     visual-studio-code
     dropbox
-    google-chrome
-    microsoft-edge
-    firefox
-    tripmode
     cleanshot
     appcleaner
     transmit
     iterm2
-    parallels
-    camunda-modeler
-    keepassxc
     obsidian
     raindropio
-    royal-tsx
     spotify
     karabiner-elements
-    font-ia-writer-duo
-    font-ia-writer-duospace
-    font-ia-writer-mono
-    font-ia-writer-quattro
-    font-victor-mono
+    brave-browser
+    lunar
+    todoist
 )
 
 # Install Cask Packages
@@ -97,18 +89,10 @@ mas install 1289583905 # Pixelmator Pro (1.5)
 mas install 453114608  # JSON Helper (1.09)
 mas install 937984704  # Amphetamine (4.2)
 mas install 1289197285 # MindNode (6.0.6)
-mas install 975937182  # Fantastical
 mas install 1276248849 # Diagrams
 mas install 1444383602 # GoodNotes 5
 mas install 419330170  # Moom
-mas install 497799835  # Xcode (11.1)
-mas install 904280696  # Things (3.14.4)
-mas install 1290358394 # Cardhop (2.0.6)
-mas install 1091189122 # Bear (1.8.5)
 mas install 1529448980 # Reeder 5 (5.0.8)
-mas install 457622435  # Yoink (3.5.16)
-#mas install 803453959  # Slack
-#mas install 1278508951 # Trello
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -120,17 +104,9 @@ mkdir ~/Development
 # Done
 printf "\n\nDone\n\n"
 
-# # # # # # # #
-# install xcall from Github → https://github.com/martinfinke/xcall
-# # # # # # # #
-
 # # # # # # # # #
 #     Other
 #
 # - Logi Options
 # - Logi Tune
-# # # # # # # # #
-
-# # # # # # # # #
-# https://github.com/romkatv/zsh4humans
 # # # # # # # # #
