@@ -77,6 +77,7 @@ CASKS=(
     brave-browser
     lunar
     todoist
+    ical-buddy
 )
 
 # Install Cask Packages
